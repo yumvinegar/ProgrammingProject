@@ -38,3 +38,14 @@ class AirMilesMember
             set discount to 50
         if points are less than 1000 and membership years are greater than 1 and less than or equal to 5
             set discount to 0
+
+
+class NonAirMilesMember
+    method applyDisocunt()
+        declare discount and set to 0
+        if the age is greater than 65
+            set discount to 10
+            
+            
+class Ticket
+    method toString()
