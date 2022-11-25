@@ -1,1 +1,40 @@
+class Flight
+    method bookASeat()
+        if number of seats is greater than 0
+            decrement number of seats(substract 1)
+            set boolean to true
+        else
+            set boolean to false
 
+    method toString()
+        declare String
+        format the String to have the appropriate output
+        
+class Passenger
+    method isEmailValid()
+        turn the String into a char array
+        declate int counter for "@" and counter for "." and set to 0. declare boolean and set to true.
+        for (int variable equals to 0; variable is less than the length of the array; increment variable)
+            if value of the array at the index variable equals to "@"
+                increment counter for "@"
+            if value of the array at the index variable equals to "."
+                increment counter for "."
+            if value of array at index 0 equals to "@"
+                set boolean to false
+            if value of array at index length-1 equals to "."
+                set boolean to false
+        if counter for "@" does not equal 1 and counter for "." does not equal 1
+            set boolean to false
+            
+    method generateId()
+        declate String equal to "p" and int equal to 0
+            //question how to do generate id
+            
+            
+class AirMilesMember
+    method applyDiscount()
+        declare discount and set to 0
+        if points are greater than 5000 and membership years are greater than 5
+            set discount to 50
+        if points are less than 1000 and membership years are greater than 1 and less than or equal to 5
+            set discount to 0
