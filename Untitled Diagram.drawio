@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T20:20:21.258Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Ndu-pvafWg9RGUbBRgzJ" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T17:50:14.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="c8vtNL8q60XvL137J9cy" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -66,10 +66,10 @@
         <mxCell id="qIrvQS993Kfd28yoti65-27" value="+ getOriginalPrice(): double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="420" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qIrvQS993Kfd28yoti65-15" value="+ setOrigin(or: String): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+        <mxCell id="qIrvQS993Kfd28yoti65-13" value="+ setFlightNumber(fn: int): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="440" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qIrvQS993Kfd28yoti65-13" value="+ setFlightNumber(fn: int): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+        <mxCell id="qIrvQS993Kfd28yoti65-15" value="+ setOrigin(or: String): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="460" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qIrvQS993Kfd28yoti65-17" value="+ setDestination(des: String): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
@@ -239,7 +239,7 @@
         <mxCell id="qIrvQS993Kfd28yoti65-63" value="+ Ticket(p: Passenger, f: Flight, price: double)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="qIrvQS993Kfd28yoti65-59" vertex="1">
           <mxGeometry y="130" width="340" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qIrvQS993Kfd28yoti65-64" value="+ getPassemger(): Passenger" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="qIrvQS993Kfd28yoti65-59" vertex="1">
+        <mxCell id="qIrvQS993Kfd28yoti65-64" value="+ getPassenger(): Passenger" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="qIrvQS993Kfd28yoti65-59" vertex="1">
           <mxGeometry y="150" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qIrvQS993Kfd28yoti65-67" value="+ getFlight(): Flight" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="qIrvQS993Kfd28yoti65-59" vertex="1">
