@@ -1,17 +1,52 @@
 class Flight
-    method bookASeat()
+    insert data members (instance variables)
+    
+    method Flight()
+        //is a constructor with no parameters
+        
+    method Flight() 
+        //is a constructor with 7 parameters
+        
+    getters and setters for each instance variable
+    
+    method bookASeat() returns boolean
         if number of seats is greater than 0
             decrement number of seats(substract 1)
             set boolean to true
         else
             set boolean to false
-
-    method toString()
+            
+    method equals() returns boolean
+        declare boolean status
+        if the number of the flight1 is equal to the number of the flight 2 
+            && origin1 is equal to origin2 
+            && the destination1 is equal to destination2 
+            && departure date1 equals to departure date2
+            && departure time1 equals to departure time2
+            && capacity1 equals to capacity2
+            && number of seats left1 equals to the number of seats left2
+            && original price1 equals to original price2
+            set boolean to true
+            
+    method toString() returns String
         declare String
-        format the String to have the appropriate output
+        add "Flight information\n******************************" to string
+        add "Flight number: Origin: Destination: Departure date: Departure time: Original price: " and format it with the values
+        
+            
         
 class Passenger
-    method isEmailValid()
+    insert data members (instance variables)
+    
+    method Passenger()
+        //default constructor
+        
+    method Passenger
+        //constructor with 5 parameters
+        
+    getters and setters for each instance variable
+    
+    method isEmailValid() returns boolean
         turn the String into a char array
         declate int counter for "@" and counter for "." and set to 0. declare boolean and set to true.
         for (int variable equals to 0; variable is less than the length of the array; increment variable)
@@ -26,26 +61,66 @@ class Passenger
         if counter for "@" does not equal 1 and counter for "." does not equal 1
             set boolean to false
             
-    method generateId()
-        declate String equal to "p" and int equal to 0
-            //question how to do generate id
+    method isZipCodeValid() returns boolean
+        declare boolean
+        if !(char at index 1, 4 and 6 is digit and char at 0, 2, 5 is capital letter and char at 3 equals " ")
+            set boolean to false
+        return boolean
             
+    method generateId() returns String 
+        declate String equal to "p" and int number equal to 0
+        number equals number of passenger
+        if value of number is less than 10
+            add "00" + number to String
+        if value of number is more than 9 and less than 100
+            add "0" + number to String
+        if value of number is more than 99
+            add number to String
+        return String
+        
+    method toString() returns String
+        declare String
+        add "Passenger information\n******************************" to string
+        add "Passenger number: Passenger name: Passenger email: " and format it with the values
             
 class AirMilesMember
-    method applyDiscount()
+    insert data members (instance variables)
+    
+    method AirMilesMember()
+        //default constructor
+        
+    method applyDiscount() returns double
         declare discount and set to 0
         if points are greater than 5000 and membership years are greater than 5
             set discount to 50
         if points are less than 1000 and membership years are greater than 1 and less than or equal to 5
-            set discount to 0
+            set discount to 10
+        return discount
 
 
 class NonAirMilesMember
-    method applyDisocunt()
+    method applyDisocunt() return double
         declare discount and set to 0
         if the age is greater than 65
             set discount to 10
+        return discount
             
             
 class Ticket
-    method toString()
+    insert data members (instance variables)
+    
+    method Ticket()
+        //takes the instance variables Passenger, Flight, price
+        
+    getters and setters for each instance variable
+    
+    method toString() returns String
+        declare String
+        add "Flight number: Passenger name: Ticket number: Origin: Destination: Departure date: Departure time: " and format it with the values
+        
+        
+class Driver
+    instantiate the Scanner class
+    ask user to input information for at least 5 pasengers, for 3 flights
+    if number of seats left is more than 0
+        display the information for the passengers
