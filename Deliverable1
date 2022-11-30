@@ -15,6 +15,7 @@ class Flight
             set boolean to true
         else
             set boolean to false
+        return boolean
             
     method equals() returns boolean
         declare boolean status
@@ -27,11 +28,13 @@ class Flight
             && number of seats left1 equals to the number of seats left2
             && original price1 equals to original price2
             set boolean to true
+        retrun boolean
             
     method toString() returns String
         declare String
         add "Flight information\n******************************" to string
         add "Flight number: Origin: Destination: Departure date: Departure time: Original price: " and format it with the values
+        return String
         
             
         
@@ -60,6 +63,7 @@ class Passenger
                 set boolean to false
         if counter for "@" does not equal 1 and counter for "." does not equal 1
             set boolean to false
+        return boolean
             
     method isZipCodeValid() returns boolean
         declare boolean
@@ -82,6 +86,7 @@ class Passenger
         declare String
         add "Passenger information\n******************************" to string
         add "Passenger number: Passenger name: Passenger email: " and format it with the values
+        return String
             
 class AirMilesMember
     insert data members (instance variables)
@@ -117,6 +122,7 @@ class Ticket
     method toString() returns String
         declare String
         add "Flight number: Passenger name: Ticket number: Origin: Destination: Departure date: Departure time: " and format it with the values
+    return String
         
         
 class Driver
