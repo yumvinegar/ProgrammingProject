@@ -71,16 +71,8 @@ class Passenger
             set boolean to false
         return boolean
             
-    method generateId() returns String 
-        declate String equal to "p" and int number equal to 0
-        number equals number of passenger
-        if value of number is less than 10
-            add "00" + number to String
-        if value of number is more than 9 and less than 100
-            add "0" + number to String
-        if value of number is more than 99
-            add number to String
-        return String
+    method generateId() void
+        passenger id equals to String.format
         
     method toString() returns String
         declare String
